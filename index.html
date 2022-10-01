@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/mediaque.css">
+    <title>Palm Restaurant</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!------------ bootstrap cdn-------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+    <!------------ bootstrap cdn-------------- -->
+    
+   <!----------------- fontawesome cdn-------------- -->
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!----------------- fontawesome cdn-------------- -->
+
+    <link rel="stylesheet" href="flipkity/flickity.min.css">
+    <script src="flipkity/flickity.pkgd.min.js"></script>
+</head>
+
+<body onload="MyPreloader()">
+    <section id="prelder">
+    </section>
+
+    <section id="main-sec">
+        <div class="header">
+            <div class="social">
+                <img src="images/menu.png" id="iconbtn">
+                <div class="s-icons" id="iconsec">
+                    <p>Follow Us On</p>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="logo">
+                <p>Palm restaurant</p>
+            </div>
+            <div class="order-btn">
+                <button class="o-btn">ORDER ONLINE</button>
+            </div>
+        </div>
+
+        <div class="hidden-menu-icon">
+            <img src="images/menu.png" id="Hiddenmenu">
+        </div>
+        <div class="links-sec" id="Menusec">
+            <div class="links" id="Innerlinks">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="ourmenu.html">OUR MENU</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <h1>AUTHENTIC ITALIAN RESTAURANT</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa placeat, similique atque iusto sit, qui
+                asperiores nisi molestiae ducimus unde sapiente enim esse sint laudantium.</p>
+            <button class="book-btn">BOOK A TABLE</button>
+            <button class="book-btn">TAKEAWAY</button>
+        </div>
+    </section>
+
+    <section id="our-service">
+        <div class="c-heading">
+            <h2>OUR SPECIALITIES</h2>
+        </div>
+        <div class="service-row" data-aos="zoom-in">
+            <div class="service-col">
+                <img src="images/nadine-primeau--ftWfohtjNw-unsplash-min.jpg">
+                <h4>FRESH INGRIDIENTS</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, dolores numquam architecto
+                    cumque voluptas deserunt.</p>
+            </div>
+            <div class="service-col">
+                <img src="images/mafe-estudio-LV2p9Utbkbw-unsplash-min.jpg" alt="">
+                <h4>HANDMADE MOZARELLA</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, dolores numquam architecto
+                    cumque voluptas deserunt.</p>
+            </div>
+            <div class="service-col">
+                <img src="images/dennis-klein-FzB_512zvP0-unsplash-min.jpg" alt="">
+                <h4>SECRET RECIPE SAUCE</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, dolores numquam architecto
+                    cumque voluptas deserunt.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="popular-dishes">
+
+        <div class="c-heading">
+            <h2>OUR POPULAR DISHES</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, dolor.</p>
+        </div>
+
+        <div class="dish-carousel">
+            <div class="main-carousel"
+                data-flickity='{ "freescroll": true,"autoPlay": true,"cellAlign":"center","pageDots": false,"dragThreshold": 3,"contain": true,"draggable": false,"prevNextButtons":true}'>
+                <div class="carousel-cell" data-aos="zoom-in">
+                    <div class="carousel-img">
+                        <img src="images/ilya-mashkov-_qxbJUr9RqI-unsplash-min.jpg">
+                    </div>
+                    <div class="carousel-info">
+                        <h3>Delish Burger</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, incidunt.</p>
+                    </div>
+                </div>
+                <div class="carousel-cell" data-aos="zoom-in">
+                    <div class="carousel-img">
+                        <img src="images/karthik-garikapati-oBbTc1VoT-0-unsplash-min.jpg">
+                    </div>
+                    <div class="carousel-info">
+                        <h3>Spicy Funnel</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, incidunt.</p>
+                    </div>
+                </div>
+                <div class="carousel-cell" data-aos="zoom-in">
+                    <div class="carousel-img">
+                        <img src="images/pixzolo-photography-aeESmmFKH0M-unsplash-min.jpg">
+                    </div>
+                    <div class="carousel-info">
+                        <h3>Truffle Tortelloni</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, incidunt.</p>
+                    </div>
+                </div>
+                <div class="carousel-cell" data-aos="zoom-in">
+                    <div class="carousel-img">
+                        <img src="images/rebeca-g-sendroiu-EtANwY5TXJY-unsplash-min.jpg">
+                    </div>
+                    <div class="carousel-info">
+                        <h3>Classic Greek Salad</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, incidunt.</p>
+                    </div>
+                </div>
+                <div class="carousel-cell" data-aos="zoom-in">
+                    <div class="carousel-img">
+                        <img src="images/herson-rodriguez-odouHPr0Lqw-unsplash-min.jpg">
+                    </div>
+                    <div class="carousel-info">
+                        <h3>Italian Cannoli</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, incidunt.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="fullmenu-btn">
+                <a href="ourmenu.html"><button>View Full Menu</button></a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="booking">
+        <div class="c-heading">
+            <h2>BOOK YOUR TABLE</h2>
+        </div>
+
+        <div class="booktable">
+            <form id="tableform">
+                <div class="form-group">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Phone">
+                    <input type="date" name="Date">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Number of guets">
+                    <input type="time" placeholder="Time">
+                </div>
+                <div class="form-btn">
+                    <button class="table-btn">Book Table</button>
+                </div>
+
+            </form>
+        </div>
+
+    </section>
+
+    <section id="testimonials">
+        <div class="c-heading">
+            <h2>WHAT OUR CLIENTS SAYS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, expedita.</p>
+        </div>
+        <div class="clients-row">
+            <div id="Client1">
+                
+                <div class="clients-cols">
+                    <div class="client-img">
+                        <img src="images/ivana-cajina-_7LbC5J-jw4-unsplash-min.jpg">
+                        <p class="clientname">Robert Hook</p>
+                    </div>
+                    <div class="client-comm">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius perferendis accusamus sed
+                            voluptatem sequi ipsum.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Client2">
+                <div class="clients-cols">
+                    <div class="client-img">
+                        <img src="images/ben-parker-OhKElOkQ3RE-unsplash-min.jpg">
+                        <p class="clientname">Robert Hook</p>
+                    </div>
+                    <div class="client-comm">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit deserunt quas delectus placeat nisi beatae! Culpa dolorem, totam alias sit praesentium repellendus beatae. Autem, consequuntur!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Client3">
+                <div class="clients-cols" >
+                    <div class="client-img">
+                        <img src="images/ian-dooley-d1UPkiFd04A-unsplash-min.jpg">
+                        <p class="clientname">Robert Hook</p>
+                    </div>
+                    <div class="client-comm">
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quaerat natus magnam porro saepe architecto molestias ducimus quisquam, sint autem pariatur modi. Ex reprehenderit ipsum blanditiis quos tempore. Laudantium, rem!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="client-nav">
+                <div class="circles" id="Nav1"></div>
+                <div class="circles" id="Nav2"></div>
+                <div class="circles" id="Nav3"></div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="footer">
+        <div class="footer-row">
+            <div class="footer-cols">
+                <h3 class="footer-head">About Us</h3>
+                <div class="footer-logo">
+                    <p>Palm restaurant</p>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum enim neque sit iure consectetur tenetur doloribus odio, iste non atque.</p>
+            </div>
+            <div class="footer-cols">
+                <h3 class="footer-head">Contact Us</h3>
+                <div class="address-sec">
+                    <div class="address-inner">
+                    <div class="address-group">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Kolhapur, Maharashtra</span>
+                    </div>
+                    <div class="address-group">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+ 123 456 78</span>
+                    </div>
+                    <div class="address-group">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>companyname@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="footer-cols">
+                <h3 class="footer-head">Opening Hours</h3>
+                <div class="openhours">
+                   <div class="time-img">
+                    <img src="images/t_hour.png">
+                   </div> 
+                    <div class="time-info">
+                        <p>Mon - Sat (8.00 am - 9.00 pm)</p>
+                        <p>Sunday - Closed</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©2022 All rights reserved | Made with <i class="fa-solid fa-heart"></i> by Swaroop Gophane</p>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 180,
+            duration: 500,
+            once: true,
+            mirror: false
+        });
+    </script>
+
+    <script src="js/Jsfile.js"></script>
+    <script src="js/Jsfile2.js"></script>
+    <script src="js/Jsfile3.js"></script>
+    <script src="js/Jsfile4.js"></script>
+    <script src="js/preloder.js"></script>
+</body>
+
+</html>

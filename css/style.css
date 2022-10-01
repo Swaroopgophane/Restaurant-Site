@@ -1,0 +1,1265 @@
+*{
+    margin: 0;
+    padding:0;
+   
+}
+
+#prelder
+{
+    background: url("../images/Loader.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+/*----------------- Home page style -----------------*/
+#main-sec
+{
+    background:linear-gradient(rgba(0,0,0,.5),#0cd4f36c),url(../images/pablo-merchan-montes-Orz90t6o0e4-unsplash-min.jpg);
+    width: 100%;
+    
+    background-size: cover;
+    background-attachment:fixed;
+    padding-bottom: 180px;
+    
+}
+ .header
+{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.social
+{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+}
+.social img
+{
+    width: 40px;
+    cursor: pointer;
+}
+.social .s-icons
+{
+    transform: translateX(-170px);
+    transition: all .3s;
+    margin-left: 20px;
+    opacity: 0;
+   line-height: 10px;
+}
+.social .s-icons p
+{
+    color:#fff;
+}
+.social .s-icons i
+{
+    font-size: 20px;
+    color:#fff;
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+.social .s-icons i:hover
+{
+    transform: scale(1.2);
+    color: #0cd3f3;
+}
+.logo p
+{
+    font-family:Brush Script Std;
+    color:#fff;
+    font-size:40px;
+}
+.logo p::after
+{
+    content: '';
+    border-right: 3px solid #fff; 
+    margin-left: 10px;
+}
+.logo p::before
+{
+    content: '';
+    border-left: 3px solid #fff; 
+    margin-right: 10px;
+}
+.order-btn .o-btn
+{
+    background: #fff;
+    border:none;
+    width: 140px;
+    padding: 10px;
+    color: #000;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    outline: none;
+}
+.order-btn .o-btn::after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:0%;
+    height: 100%;
+    background: #f73504;
+    border-radius: 10px;
+   
+    z-index: -1;
+    transition: all .4s;
+    
+}
+.order-btn .o-btn:hover::after
+{
+    width: 100%;
+    color: #fff;
+}
+.order-btn:hover .o-btn
+{
+    color: #fff;
+    
+}
+
+
+.hidden-menu-icon
+{
+   display: none;
+}
+
+.links-sec
+{
+    
+    padding-top: 20px;
+    padding-bottom: 5px;
+    transition: all .3s;
+    width: 100%;
+    
+}
+.activesection
+{
+    background:rgb(226, 56, 13) ;
+    box-shadow: rgba(0,0,0,.6)0px 2px 6px 0px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+   
+}
+.links-sec .links
+{
+    text-align: center;
+    transition: all .3s;
+}
+.links-sec .links ul li
+{
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+}
+.links-sec .links ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.links-sec .links ul li a:hover
+{
+    color:#fff;
+}
+.links-sec .links ul li:hover::after
+{
+    content: '';
+    width: 60px;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin:5px auto;
+}
+.main-content
+{
+    text-align: center;
+    color: #fff;
+    width: 55%;
+    margin:50px auto;
+    padding-top: 50px;
+}
+.main-content h1
+{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.book-btn
+{
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    color:#000;
+    margin-right: 15px;
+    margin-top: 15px;
+    
+}
+.book-btn:focus
+{
+    outline: none;
+}
+.book-btn:hover
+{
+    background:rgba(240, 43, 8, 0.932) ;
+    color: #fff;
+    
+}
+#our-service
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #eee;
+    width: 100%;
+}
+.c-heading
+{
+    text-align: center;
+    
+}
+.c-heading h2
+{
+    font-size: 43px;
+}
+.service-row
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin:40px auto;
+}
+.service-col
+{
+    width: 30%;
+    text-align: center;
+    transition: all .5s;
+   
+    padding: 20px;
+}
+.service-col:hover
+{
+    
+    box-shadow: rgba(0,0,0,.5)0px 2px 6px 0px;
+    transform:perspective(500px) rotateY(-10deg);
+    
+}
+
+.service-col img
+{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 80px;
+    margin-bottom: 20px;
+    transition: all .5s;
+}
+
+
+#popular-dishes
+{
+    background: url(../images/edward-franklin-Nb_Q-M3Cdzg-unsplash-min.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-position: center;
+}
+#popular-dishes .c-heading
+{
+    color: #fff;
+}
+.dish-carousel
+{
+    width: 80%;
+    margin:50px auto;
+}
+#popular-dishes .main-carousel
+{
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#popular-dishes .carousel-cell
+{
+   width: 30%;
+    padding: 20px;
+   margin-right: 50px;
+    background: #fff;
+    border-radius: 20px;
+}
+.carousel-img
+{
+    text-align: center;
+    width: 100%;
+}
+.carousel-img img
+{
+   
+width: 100%;
+height: 250px;
+border-radius: 90px;
+}
+.carousel-info
+{
+    text-align: center;
+    margin-top: 20px;
+}
+.dish-carousel .fullmenu-btn
+{
+    text-align: center;
+    margin-top: 50px;
+}
+.dish-carousel .fullmenu-btn button
+{
+    width: 130px;
+    padding: 10px;
+    background: #f73504;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    outline: none;
+}
+.dish-carousel .fullmenu-btn button:hover
+{
+    background: #f76504;
+}
+.dish-carousel .fullmenu-btn button:focus
+{
+    outline: none;
+}
+
+#booking
+{
+    width: 100%;
+    background: #eee;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#booking .c-heading
+{
+    margin-bottom: 50px;
+}
+ .booktable
+{
+    width: 50%;
+    padding: 20px;
+    box-shadow: rgba(0,0,0,.5)0px 2px 6px 0px;
+    margin: auto;
+    border-radius: 20px;
+    background: #fff;
+}
+#tableform
+{
+    margin-top: 20px;
+}
+.form-group 
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.form-group input
+{
+    width: 49%;
+    height: 40px;
+    border: none;
+    background: #eee;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom:20px ;
+    
+}
+
+.form-group input:focus
+{
+    outline: none;
+    box-shadow: rgba(0,0,0,.5)0px 2px 6px 0px;
+}
+.table-btn
+{
+    width: 130px;
+    padding: 10px;
+    background: #f73504;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    outline: none;
+}
+.form-btn
+{
+    text-align: center;
+}
+.table-btn:hover
+{
+    background: #f76504;
+
+}
+
+#testimonials
+{
+    background: linear-gradient(rgba(36, 48, 45, 0.5),rgba(27, 163, 145, 0.507)),url("../images/ogulcan-ercal-hl4Ulv4IxZA-unsplash-min.jpg");
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#testimonials .c-heading
+{
+    color: #fff;
+}
+.clients-row
+{
+    width: 60%;
+    margin:50px auto;
+}
+.clients-cols
+{
+    width: 100%;
+    background:#fff;
+    display: flex;
+    align-items: center;
+   margin-bottom: 50px;
+   box-shadow: rgba(0,0,0,.6)0px 2px 6px 0px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-radius: 20px;
+}
+.client-img
+{
+    width: 30%;
+    text-align: center;
+    color: #000;
+    
+   
+}
+.clientname
+{
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.client-img img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+    margin-top: 15px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    
+}
+
+.client-comm
+{
+    color: #000;
+    border-left: 2px solid #000;
+   width: 70%;
+   
+}
+.client-comm::before
+{
+    content: '\201c';
+   margin-bottom: -50px;
+   margin-top: -20px;
+   margin-left: 20px;
+   display: block;
+    font-size: 80px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgba(60, 192, 42, 0.658);
+}
+.client-comm p
+{
+    padding-left:35px ;
+    font-family: cursive;
+    
+}
+
+
+.client-nav
+{
+    width: 15%;
+    margin:auto;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.client-nav .circles
+{
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.client-nav .circles:first-child
+{
+    background: #da560a;
+}
+#Client2,#Client3
+{
+    display: none;
+    
+}
+.Clientcolanimate
+{
+    animation-name: Clientanimate;
+    animation-duration:.3s;
+    animation-iteration-count: initial;
+    animation-direction: normal;
+}
+@keyframes Clientanimate
+{
+    0%{
+        transform: scale(0);
+    }
+    100%
+    {
+        transform: scale(1);
+    }
+}
+
+#footer
+{
+    background: #201b19;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.footer-row
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid rgba(94, 75, 75, 0.836);
+    padding-bottom: 30px;
+}
+.footer-cols
+{
+    width: 30%;
+    
+    color: #fff;
+}
+.footer-cols:nth-child(2) .footer-head
+{
+    text-align: center;
+}
+.address-sec
+{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo p
+{
+    font-family:Brush Script Std;
+    color:#fff;
+    font-size:30px;
+}
+.footer-logo p::before
+{
+    content: '';
+    border-left: 3px solid #fff; 
+    margin-right: 10px;
+}
+.footer-logo p::after
+{
+    content: '';
+    border-right: 3px solid #fff; 
+    margin-left: 10px;
+}
+.footer-head
+{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.address-sec
+{
+    margin-top: 30px;
+}
+.address-group
+{
+   
+    margin-bottom: 20px;
+}
+.address-group i
+{
+    font-size: 20px;
+    width: 40px;
+    
+}
+
+.openhours
+{
+    display: flex;
+    margin-top: 30px;
+}
+.openhours img
+{
+ width: 50px;
+ background: #f73504;
+ padding: 10px;
+ border-radius: 10px;
+ margin-right: 10px;
+}
+.time-info
+{
+    line-height: 15px;
+}
+.copyright
+{
+    color: #fff;
+    text-align: center;
+    margin-top:60px;
+}
+.copyright i
+{
+    color: #f73504;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------- Home page style end------------------- */
+
+
+
+/*---------------- Our menu page style ------------------- */
+
+#common-container
+{
+    background:linear-gradient(rgba(0,0,0,.5),#0cd4f38c), url(../images/janice-lin-yUIN4QWKCTw-unsplash-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+   
+}
+.labelhead
+{
+    text-align: center;
+    transform: translateY(120px);
+    color: #fff;
+    
+}
+.labelhead h1
+{
+    font-size: 65px;
+}
+#our-menu
+{
+    background:#eee;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+#our-menu .c-heading
+{
+    color: #000;
+}
+#our-menu .menu-gallary
+{
+    width: 70%;
+    margin: auto;
+}
+#our-menu .menu-list
+{
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 40px;
+}
+#our-menu .menu-list p
+{
+    cursor: pointer;
+    position: relative;
+   
+    
+}
+#our-menu .menu-list p.activeindicator::after
+{
+    content: '';
+    width: 70px;
+    height: 2px;
+    background: #f76504;
+    position: absolute;
+    bottom: -7px;
+    left: -7px;
+    margin: auto;
+    
+}
+#our-menu .menu-list p::after
+{
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: #f76504;
+    position: absolute;
+    bottom: -7px;
+    left: -7px;
+    margin: auto;
+    transition: all .5s;
+}
+/* #indicator
+{
+    width: 70px;
+    height: 2px;
+    background: #0cd3f3;
+    position: absolute;
+    bottom: 0;
+    left: 130px;
+    transform: translateX(0px);
+    transition: all .2s;
+} */
+.munu-dishrow
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+	column-gap: 50px;
+    row-gap: 30px;
+    margin-top: 40px;
+}
+#dish2 
+{
+    display: none;
+}
+#dish3
+{
+    display: none;
+}
+#dish4
+{
+    display: none;
+}
+#dish5
+{
+    display: none;
+}
+.menu-dish .dishcol
+{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    background:rgba(28, 111, 179, 0.76);
+    padding: 25px;
+    border-radius: 10px;
+}
+.dish-img
+{
+    width: 800px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 80px;
+    box-shadow:rgba(9, 236, 130, 0.897)0px 2px 6px 0px;
+}
+.dish-img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 80px;
+    transition:ease-in-out .2s;
+}
+.dish-img img:hover
+{
+    transform: scale(1.05);
+}
+.dish-info
+{
+    margin-left: 30px;
+    color: #fff;
+    
+}
+.dish-info .dishbtn
+{
+    background: #fff;
+    width: 120px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    color: #000;
+    outline: none;
+}
+.dishbtn:hover
+{
+    background: #f76504;
+    color: #fff;
+}
+.dish-info .dishrupees
+{
+    color: #f7ab08;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fullmenu-btn
+{
+    text-align: center;
+    margin-top: 40px;
+}
+.fullmenu-btn button
+{
+    background: #f73504;
+    width: 140px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    outline: none;
+}
+.fullmenu-btn button:hover
+{
+    background: #f76504;
+}
+
+#our-best-service
+{
+    
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+.addvertise-row
+{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.addvertisecol
+{
+    width: 30%;
+    text-align: center;
+    transition: all ease-out .2s;
+    padding: 10px;
+}
+.addvertisecol:hover
+{
+    box-shadow: rgba(0,0,0,.5)0px 2px 6px 0px;
+    
+}
+.addvertisecol img
+{
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+}
+
+
+
+
+/*---------------- Our menu page style end ------------------- */
+
+
+/*---------------- Full menu page style ------------------- */
+.our-grid
+{
+    width: 80%;
+    margin:30px auto;
+    
+    padding-top: 15px;
+    
+    border-radius: 20px;
+}
+.menu-grid
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    column-gap: 20px;
+    row-gap: 40px;
+    margin-top: 40px;
+    
+
+}
+.menu-gridcol
+{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    transition: all .2s;
+    box-shadow: rgba(0,0,0,.5)0px 2px 6px 0;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.menu-gridcol:hover{
+    
+    background: #da560a;
+    color: #fff;
+    box-shadow: none;
+}
+.menu-gridcol img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+.menu-gridcol .grid-btn
+{
+    width: 120px;
+    padding: 5px;
+    background: #e44312;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.menu-gridcol:hover .grid-btn
+{
+    background: #fff;
+    color: #000;
+}
+#Gridmenu2
+{
+    display: none;
+}
+#Gridmenu3
+{
+    display: none;
+}
+#Gridmenu4
+{
+    display: none;
+}
+#Gridmenu5
+{
+    display: none;
+}
+.Gridanimation
+{
+    animation-name: gridanimate;
+    animation-duration:.3s;
+    animation-iteration-count: initial;
+    animation-direction: normal;
+}
+@keyframes gridanimate
+{
+    0%
+    {
+        transform:scale(0);
+    }
+    100%
+    {
+        transform: scale(1);
+    }
+}
+/*---------------- Full menu page style ------------------- */
+
+
+
+
+
+/*---------------- About page style ------------------- */
+#common-container2
+{
+    background:linear-gradient(rgba(0,0,0,.5),#0cd4f38c), url(../images/lily-banse--YHSwy6uqvk-unsplash-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+#history
+{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background: #eee;
+}
+
+.hist-sec
+{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    
+}
+.histcol1,.histcol2
+{
+    width: 100%;
+}
+.histcol1 img
+{
+   width:450px;
+   height:300px;
+   margin-bottom: 30px;
+}
+.histcol2
+{
+    padding-left: 20px;
+}
+.histcol2 h2
+{
+    margin-bottom: 20px;
+}
+.histcol2 p
+{
+    color: rgba(0, 0, 0, 0.568);
+}
+
+#counter
+{
+    background:linear-gradient(rgba(0, 0, 0, 0.355),rgba(0, 0, 0, 0.327)), url(../images/jordane-mathieu-coodx5jF2f0-unsplash-min.jpg);
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom:80px;
+}
+.coun-container
+{
+    width: 60%;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.count-col
+{
+    text-align: center;
+}
+
+#ourstaff
+{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background: #eee;
+}
+
+#ourstaff .members-container
+{
+    width: 90%;
+    margin: auto;
+   
+}
+#ourstaff .members-container .carousel-cell
+{
+    width: 30%;
+    margin-left: 50px;
+    text-align: center;
+    
+}
+#ourstaff .members-container .carousel-cell img
+{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    
+}
+#ourstaff .members-container .main-carousel
+{
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#ourstaff .members-container .carousel-cell
+{
+    margin-top: 30px;
+}
+.chef-info
+{
+    margin-top: 30px;
+}
+
+
+
+/*---------------- Blog page style ------------------- */
+#common-container3
+{
+    background:linear-gradient(rgba(0,0,0,.5),#0cd4f38c), url(../images/chad-montano-MqT0asuoIcU-unsplash-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+}
+#blog-container
+{
+    background: #eee;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    
+   
+}
+.blog-label
+{
+   
+    color: rgba(0, 0, 0, 0.077);
+    font-size: 200px;
+    user-select: none;
+    font-weight: bold;
+    text-align: center;
+}
+.blog-inner
+{
+    width: 90%;
+    margin:0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   transform: translateY(-80px);
+}
+.blog-col
+{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    
+    
+}
+.blog-col:nth-child(3)
+{
+    flex-direction: row-reverse;
+}
+.blog-col:nth-child(3) .blog-info
+{
+    margin-right: 20px;
+}
+.blog-col:nth-child(4)
+{
+    flex-direction: row-reverse;
+}
+.blog-col:nth-child(4) .blog-info
+{
+    margin-right: 20px;
+}
+
+.blog-col img
+{
+    width: 300px;
+    height: 300px;
+}
+
+.blog-info
+{
+    margin-left: 20px;
+   
+}
+.blog-desc
+{
+    color: rgba(0, 0, 0, 0.632);
+}
+.blog-btn
+{
+    background: #f73504;
+    color: #fff;
+    padding:5px 10px;
+    border:none;
+    border-radius: 10px;
+}
+.blog-btn:hover
+{
+    background: #f76504;
+}
+
+/*---------------- contact page style ------------------- */
+
+#common-container4
+{
+    background:linear-gradient(rgba(0,0,0,.5),#0cd4f38c), url(../images/adrien-olichon-ZgREXhl8ER0-unsplash-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+}
+.contact-sec
+{
+    background: #eee;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.contact-container
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.contact-col
+{
+    width: 50%;
+}
+.contact-form
+{
+    padding: 50px 40px;
+    background: #fff;
+}
+.contact-form input
+{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border: 1px solid rgba(165, 157, 157, 0.366);
+}
+.contact-form input:focus
+{
+   border: 1px solid rgb(226, 140, 12);
+}
+
+.contact-form textarea
+{
+    width: 100%;
+    outline: none;
+    padding-left: 10px;
+    padding-top: 20px;
+    border: none;
+    border: 1px solid rgba(165, 157, 157, 0.366);
+    resize: none;
+}
+.contact-form textarea:focus
+{
+    border: 1px solid rgb(226, 140, 12);
+}
+.contact-form .form-btn
+{
+    width: 130px;
+    padding: 12px;
+    background: #f73504;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 30px;
+}
+.contact-form .form-btn:hover
+{
+    background: #f76504;
+}

@@ -1,0 +1,2554 @@
+
+/* For mobile phones */
+
+@media (min-width:320px) and (max-width:480px)
+{
+    #main-sec
+{
+    background:linear-gradient(rgba(0,0,0,.5),#0cd4f36c),url(../images/pablo-merchan-montes-Orz90t6o0e4-unsplash-min.jpg);
+    width: 100%;
+    
+    background-size: cover;
+    background-attachment:fixed;
+    padding-bottom: 130px;
+    
+}
+ .header
+{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.social
+{
+    display: none;
+}
+.social img
+{
+    display: none;
+}
+
+
+.logo 
+{
+    text-align: center;
+    width: 500px;
+}
+.logo p::after
+{
+    content: '';
+    border-right: 3px solid #fff; 
+    margin-left: 10px;
+}
+.logo p::before
+{
+    content: '';
+    border-left: 3px solid #fff; 
+    margin-right: 10px;
+}
+.order-btn .o-btn
+{
+    display: none;
+}
+.hidden-menu-icon
+{
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    display: block;
+    z-index: 20;
+}
+.hidden-menu-icon img
+{
+    width: 35px;
+    cursor: pointer;
+}
+.links-sec
+{
+    
+    padding-top:0px;
+    padding-bottom:0px;
+    transition: all .3s;
+    width: 100%;
+    background: rgb(219, 38, 14);
+    max-height: 0px;
+    overflow: hidden;
+    
+}
+.activesection
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    background: none;
+}
+
+.links-sec .links ul li
+{
+    display: block;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.links-sec .links ul li a:hover
+{
+    color: #000;
+}
+.links-sec .links ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.links-sec .links ul li:hover::after
+{
+    display: none;
+}
+.main-content
+{
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    padding: 5px;
+    margin-top: 60px;
+}
+.main-content h1
+{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#our-service
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #eee;
+    width: 100%;
+}
+.c-heading
+{
+    text-align: center;
+    
+}
+.c-heading h2
+{
+    font-size:35px;
+}
+.service-row
+{
+    display: flex;
+    flex-direction: column;
+}
+.service-col
+{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+#popular-dishes
+{
+    background: url(../images/edward-franklin-Nb_Q-M3Cdzg-unsplash-min.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-position: center;
+}
+#popular-dishes .c-heading
+{
+    color: #fff;
+}
+.dish-carousel
+{
+    width: 90%;
+    margin:50px auto;
+}
+#popular-dishes .main-carousel
+{
+    width: 100%;
+    padding-left: 0px;
+    padding-right:0px;
+}
+#popular-dishes .carousel-cell
+{
+   width: 100%;
+    padding: 20px;
+   margin-right: 50px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+#booking
+{
+    width: 100%;
+    background: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#booking .c-heading
+{
+    margin-bottom: 50px;
+}
+ .booktable
+{
+    width: 90%;
+    padding: 20px;
+    box-shadow: rgba(0,0,0,.5)0px 2px 6px 0px;
+    margin: auto;
+    border-radius: 20px;
+    background: #fff;
+}
+#tableform
+{
+    margin-top: 20px;
+}
+.form-group 
+{
+    width: 100%;
+    display: block;
+    
+    
+}
+.form-group input
+{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: #eee;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom:30px ;
+    
+}
+.form-group input:focus
+{
+    outline: none;
+}
+.table-btn
+{
+    width: 130px;
+    padding: 10px;
+    background: #f73504;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    
+}
+.form-btn
+{
+    text-align: center;
+}
+.table-btn:hover
+{
+    background: #f76504;
+
+}
+
+.clients-row
+{
+    width: 80%;
+    margin:50px auto;
+}
+.clients-cols
+{
+    width: 100%;
+    background:#fff;
+    display: block;
+    align-items: center;
+   margin-bottom: 50px;
+   box-shadow: rgba(0,0,0,.6)0px 2px 6px 0px;
+   padding: 20px;
+}
+.client-img
+{
+    width: 100%;
+    text-align: center;
+    color: #000;
+   margin-bottom: 40px;
+}
+.client-img img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.client-comm
+{
+    color: #000;
+    border-left:none;
+   width: 100%;
+   text-align: center;
+}
+.client-comm::before
+{
+    content: '\201c';
+   margin-bottom: -40px;
+   margin-top: -20px;
+   margin-left: 20px;
+   display: flex;
+    font-size: 80px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgba(60, 192, 42, 0.658);
+}
+.client-comm p
+{
+    padding-left:0px ;
+    font-family: cursive;
+}
+.client-nav
+{
+    width: 30%;
+    margin:auto;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.footer-row
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid rgba(94, 75, 75, 0.836);
+    padding-bottom: 10px;
+    flex-direction: column;
+}
+.footer-cols
+{
+    width: 90%;
+    color: #fff;
+    margin:20px auto;   
+    
+}
+.footer-logo p
+{
+    font-family:Brush Script Std;
+    color:#fff;
+    font-size:24px;
+}
+.footer-head
+{
+    
+    font-size: 30px;
+}
+.address-sec
+{
+    display: flex;
+    justify-content: center;
+}
+.footer-cols:nth-child(1)
+{
+    text-align: center;
+}
+.footer-cols:nth-child(2) .footer-head
+{
+    text-align: center;
+}
+.footer-cols:nth-child(3)
+{
+    text-align: center;
+}
+.openhours
+{
+    justify-content: center;
+}
+
+.copyright
+{
+    padding: 0px 10px;
+}
+
+
+
+/*---------------- Our menu page style ------------------- */
+
+.common-container
+{
+    background:linear-gradient(rgba(0,0,0,.5),#0cd4f38c), url(../images/janice-lin-yUIN4QWKCTw-unsplash-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+   
+}
+.labelhead
+{
+    text-align: center;
+    transform: translateY(120px);
+    color: #fff;
+    
+}
+.labelhead h1
+{
+    font-size: 65px;
+}
+#our-menu
+{
+    background:#eee;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#our-menu .c-heading
+{
+    color: #000;
+}
+#our-menu .menu-gallary
+{
+    width: 90%;
+    margin: auto;
+}
+#our-menu .menu-list
+{
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 40px;
+}
+#our-menu .menu-list p
+{
+    cursor: pointer;
+}
+#our-menu .menu-list p.activeindicator::after
+{
+    content: '';
+    width:60px;
+    height: 2px;
+    background: #f76504;
+    position: absolute;
+    bottom: -7px;
+    left: -5px;
+    margin: auto;
+    
+}
+#our-menu .menu-list p::after
+{
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: #f76504;
+    position: absolute;
+    bottom: -7px;
+    left: -5px;
+    margin: auto;
+    transition: all .5s;
+}
+#indicator
+{
+    width:0px;
+    height:px;
+    background: none;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    transform: translateX(0px);
+    transition: all .2s;
+}
+.munu-dishrow
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+	grid-column-gap: 50px;
+	grid-row-gap: 30px;
+    margin-top: 40px;
+}
+#dish2 
+{
+    display: none;
+}
+#dish3
+{
+    display: none;
+}
+#dish4
+{
+    display: none;
+}
+#dish5
+{
+    display: none;
+}
+.menu-dish .dishcol
+{
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    background:rgba(28, 111, 179, 0.76);
+    padding:20px;
+    border-radius: 10px;
+}
+.dish-img
+{
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 80px;
+    box-shadow:rgba(9, 236, 130, 0.897)0px 2px 6px 0px;
+   
+}
+.dish-img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 80px;
+    transition:ease-in-out .2s;
+}
+.dish-img img:hover
+{
+    transform: scale(1.05);
+}
+.dish-info
+{
+    margin-left:0px;
+    color: #fff;
+    margin-top: 20px;
+}
+.dishbtn
+{
+    background: #f73504;
+    width: 120px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+.dishbtn:hover
+{
+    background: #f76504;
+}
+.dish-info .dishrupees
+{
+    color: #f7b708;
+    font-weight: bolder;
+}
+
+#our-best-service
+{
+    
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+.addvertise-row
+{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.addvertisecol
+{
+    width: 100%;
+    text-align: center;
+    transition: all ease-out .2s;
+    padding: 10px;
+}
+.addvertisecol:hover
+{
+    box-shadow: rgba(0,0,0,.5)0px 2px 6px 0px;
+    transform: none;
+}
+
+
+/*---------------- About page style ------------------- */
+
+#common-container2
+{
+    background:linear-gradient(rgba(0,0,0,.5),#0cd4f38c), url(../images/lily-banse--YHSwy6uqvk-unsplash-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+#history
+{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background: #eee;
+}
+
+.hist-sec
+{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+}
+.histcol1,.histcol2
+{
+    width: 100%;
+}
+.histcol1 
+{
+    text-align: center;
+}
+.histcol1 img
+{
+   width: 300px;
+   height:300px;
+   margin-bottom: 30px;
+}
+.histcol2
+{
+    padding-left: 20px;
+}
+.histcol2 h2
+{
+    margin-bottom: 20px;
+}
+.histcol2 p
+{
+    color: rgba(0, 0, 0, 0.568);
+}
+
+#counter
+{
+    background:linear-gradient(rgba(0, 0, 0, 0.355),rgba(0, 0, 0, 0.327)), url(../images/jordane-mathieu-coodx5jF2f0-unsplash-min.jpg);
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom:80px;
+}
+.coun-container
+{
+    width: 60%;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.count-col
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#ourstaff
+{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background: #eee;
+}
+
+#ourstaff .members-container
+{
+    width: 90%;
+    margin: auto;
+    
+}
+#ourstaff .members-container .carousel-cell
+{
+    width: 100%;
+    margin-left: 50px;
+    text-align: center;
+
+}
+#ourstaff .members-container .carousel-cell img
+{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    
+}
+#ourstaff .members-container .main-carousel
+{
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#ourstaff .members-container .carousel-cell
+{
+    margin-top: 30px;
+}
+.chef-info
+{
+    margin-top: 30px;
+}
+
+
+
+/*---------------- Blog page style ------------------- */
+
+
+.blog-label
+{
+   
+    color: rgba(0, 0, 0, 0.077);
+    font-size: 120px;
+    user-select: none;
+    font-weight: bold;
+    
+}
+.blog-inner
+{
+    width: 80%;
+    margin:50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.blog-col
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+.blog-col:nth-child(3)
+{
+    flex-direction: column;
+}
+.blog-col:nth-child(3) .blog-info
+{
+    margin-right: 20px;
+}
+.blog-col:nth-child(4)
+{
+    flex-direction: column;
+}
+.blog-col:nth-child(4) .blog-info
+{
+    margin-right: 20px;
+}
+
+/* .blog-col img
+{
+    width: 300px;
+    height: 300px;
+} */
+.blog-info
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+/* .blog-desc
+{
+    color: rgba(0, 0, 0, 0.632);
+}
+.blog-btn
+{
+    background: #f73504;
+    color: #fff;
+    padding:5px 10px;
+    border:none;
+    border-radius: 10px;
+}
+.blog-btn:hover
+{
+    background: #f76504;
+} */
+
+.contact-container
+{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+}
+.contact-col
+{
+    width: 100%;
+}
+.map-col
+{
+    height: 500px;
+}
+.contact-form
+{
+    padding: 50px 10px;
+    background: #fff;
+}
+
+
+
+
+
+
+
+}
+
+/*---------------------- For mobile phones------------------------- */
+
+/*---------------------- For Tablets ------------------------- */
+
+@media (min-width:481px) and (max-width:768px)
+{
+    #main-sec
+{
+    background:linear-gradient(rgba(0,0,0,.5),#0cd4f36c),url(../images/pablo-merchan-montes-Orz90t6o0e4-unsplash-min.jpg);
+    width: 100%;
+    
+    background-size: cover;
+    background-attachment:fixed;
+    padding-bottom: 160px;
+    
+}
+ .header
+{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.social
+{
+    display: none;
+}
+.logo
+{
+   width: 100%;
+   text-align: center;
+   
+}
+
+
+.order-btn .o-btn
+{
+    display: none;
+}
+
+
+.hidden-menu-icon
+{
+   display: none;
+}
+
+.links-sec
+{
+    
+    padding-top: 20px;
+    padding-bottom: 5px;
+    transition: all .3s;
+    width: 100%;
+    
+}
+.activesection
+{
+    background:rgb(226, 56, 13) ;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+
+.main-content
+{
+    text-align: center;
+    color: #fff;
+    width: 90%;
+    margin:50px auto;
+    padding-top: 50px;
+}
+.main-content h1
+{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#our-service
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #eee;
+    width: 100%;
+}
+.c-heading
+{
+    text-align: center;
+    
+}
+.c-heading h2
+{
+    font-size: 43px;
+}
+.service-row
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin:40px auto;
+    flex-direction: column;
+}
+.service-col
+{
+    width: 70%;
+    text-align: center;
+    margin: 30px auto;
+}
+
+
+
+#popular-dishes
+{
+    background: url(../images/edward-franklin-Nb_Q-M3Cdzg-unsplash-min.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-position: center;
+}
+#popular-dishes .c-heading
+{
+    color: #fff;
+}
+.dish-carousel
+{
+    width: 90%;
+    margin:50px auto;
+}
+#popular-dishes .main-carousel
+{
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#popular-dishes .carousel-cell
+{
+   width: 100%;
+    padding: 20px;
+   margin-right: 50px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.carousel-img
+{
+    text-align: center;
+    width: 100%;
+}
+.carousel-img img
+{
+   
+width: 280px;
+height: 250px;
+border-radius: 90px;
+}
+
+
+#booking
+{
+    width: 100%;
+    background: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#booking .c-heading
+{
+    margin-bottom: 50px;
+}
+ .booktable
+{
+    width: 90%;
+    padding: 20px;
+    box-shadow: rgba(0,0,0,.5)0px 2px 6px 0px;
+    margin: auto;
+    border-radius: 20px;
+    background: #fff;
+}
+#tableform
+{
+    margin-top: 20px;
+}
+.form-group 
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.form-group input
+{
+    width:100%;
+    height: 40px;
+    border: none;
+    background: #eee;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom:20px ;
+    
+}
+
+.clients-row
+{
+    width: 80%;
+    margin:50px auto;
+}
+.clients-cols
+{
+    width: 100%;
+    background:#fff;
+    display: block;
+    align-items: center;
+   margin-bottom: 50px;
+   box-shadow: rgba(0,0,0,.6)0px 2px 6px 0px;
+   padding: 20px;
+}
+.client-img
+{
+    width: 100%;
+    text-align: center;
+    color: #000;
+   margin-bottom: 40px;
+}
+.client-img img
+{
+    width: 130px;
+    height: 130px;
+    border-radius: 80px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.client-comm
+{
+    color: #000;
+    border-left:none;
+   width: 100%;
+   text-align: center;
+}
+.client-comm::before
+{
+    content: '\201c';
+   margin-bottom: -40px;
+   margin-top: -20px;
+   margin-left: 20px;
+   display: flex;
+    font-size: 80px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgba(60, 192, 42, 0.658);
+}
+.client-comm p
+{
+    padding-left:0px ;
+    font-family: cursive;
+}
+.client-nav
+{
+    width: 20%;
+    margin:auto;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.footer-row
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid rgba(94, 75, 75, 0.836);
+    padding-bottom: 10px;
+    flex-direction: column;
+}
+.footer-cols
+{
+    width: 80%;
+    color: #fff;
+    margin:20px auto;   
+    
+}
+.address-sec
+{
+    display: flex;
+    justify-content: center;
+}
+.footer-cols:nth-child(1)
+{
+    text-align: center;
+}
+.footer-cols:nth-child(2) .footer-head
+{
+    text-align: center;
+}
+.footer-cols:nth-child(3)
+{
+    text-align: center;
+}
+.openhours
+{
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+/*---------------- Our menu page style ------------------- */
+
+.common-container
+{
+    background:linear-gradient(rgba(0,0,0,.5),#0cd4f38c), url(../images/janice-lin-yUIN4QWKCTw-unsplash-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+   
+}
+.labelhead
+{
+    text-align: center;
+    transform: translateY(120px);
+    color: #fff;
+    
+}
+.labelhead h1
+{
+    font-size: 65px;
+}
+#our-menu
+{
+    background:#eee;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#our-menu .menu-gallary
+{
+    width: 90%;
+    margin: auto;
+}
+
+#our-menu .menu-list p
+{
+    cursor: pointer;
+}
+#our-menu .menu-list p.activeindicator::after
+{
+    content: '';
+    width:60px;
+    height: 2px;
+    background: #f76504;
+    position: absolute;
+    bottom: -7px;
+    left: -4px;
+    margin: auto;
+    
+}
+#our-menu .menu-list p::after
+{
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: #f76504;
+    position: absolute;
+    bottom: -7px;
+    left: -4px;
+    margin: auto;
+    transition: all .5s;
+}
+#indicator
+{
+    width:0px;
+    height: 2px;
+    background:none;
+    position: absolute;
+    bottom: 0;
+    left: 130px;
+    transform: translateX(0px);
+    transition: all .2s;
+}
+.munu-dishrow
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+	grid-column-gap: 50px;
+	grid-row-gap: 30px;
+    margin-top: 40px;
+}
+
+.menu-dish .dishcol
+{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    background:rgba(28, 111, 179, 0.76);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#our-best-service
+{
+    
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+.addvertise-row
+{
+    width: 60%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.addvertisecol
+{
+    width: 100%;
+    text-align: center;
+    transition: all ease-out .2s;
+    padding: 10px;
+}
+.addvertisecol:hover
+{
+    box-shadow: rgba(0,0,0,.5)0px 2px 6px 0px;
+    transform: none;
+}
+.addvertisecol img
+{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+/*---------------- About page style ------------------- */
+
+#common-container2
+{
+    background:linear-gradient(rgba(0,0,0,.5),#0cd4f38c), url(../images/lily-banse--YHSwy6uqvk-unsplash-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+#history
+{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background: #eee;
+}
+
+.hist-sec
+{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+}
+.histcol1,.histcol2
+{
+    width: 100%;
+}
+.histcol1
+{
+    text-align: center;
+}
+.histcol1
+{
+    text-align: center;
+}
+.histcol1 img
+{
+   width: 430px;
+   height:300px;
+   margin-bottom: 30px;
+   
+}
+.histcol2
+{
+    padding-left: 20px;
+}
+.histcol2 h2
+{
+    margin-bottom: 20px;
+}
+.histcol2 p
+{
+    color: rgba(0, 0, 0, 0.568);
+}
+
+#counter
+{
+    background:linear-gradient(rgba(0, 0, 0, 0.355),rgba(0, 0, 0, 0.327)), url(../images/jordane-mathieu-coodx5jF2f0-unsplash-min.jpg);
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom:80px;
+}
+.coun-container
+{
+    width: 60%;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.count-col
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#ourstaff
+{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background: #eee;
+}
+
+#ourstaff .members-container
+{
+    width: 90%;
+    margin: auto;
+    
+}
+#ourstaff .members-container .carousel-cell
+{
+    width: 100%;
+    margin-left: 50px;
+    text-align: center;
+
+}
+#ourstaff .members-container .carousel-cell img
+{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    
+}
+#ourstaff .members-container .main-carousel
+{
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#ourstaff .members-container .carousel-cell
+{
+    margin-top: 30px;
+}
+.chef-info
+{
+    margin-top: 30px;
+}
+
+
+
+/*---------------- Blog page style ------------------- */
+
+
+.blog-label
+{
+   
+    color: rgba(0, 0, 0, 0.077);
+    font-size: 150px;
+    user-select: none;
+    font-weight: bold;
+    
+}
+.blog-inner
+{
+    width: 80%;
+    margin:50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.blog-col
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+.blog-col:nth-child(3)
+{
+    flex-direction: column;
+}
+.blog-col:nth-child(3) .blog-info
+{
+    margin-right: 20px;
+}
+.blog-col:nth-child(4)
+{
+    flex-direction: column;
+}
+.blog-col:nth-child(4) .blog-info
+{
+    margin-right: 20px;
+}
+
+.blog-col img
+{
+    width: 400px;
+    height: 400px;
+}
+.blog-info
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 400px;
+}
+
+.contact-container
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.contact-col
+{
+    width: 100%;
+}
+.map-col
+{
+    height: 500px;
+}
+
+
+}
+
+/*---------------------- For large device ------------------------- */
+
+
+
+@media (min-width:769px) and (max-width:960px)
+{
+
+    #main-sec
+{
+    background:linear-gradient(rgba(0,0,0,.5),#0cd4f36c),url(../images/pablo-merchan-montes-Orz90t6o0e4-unsplash-min.jpg);
+    width: 100%;
+    
+    background-size: cover;
+    background-attachment:fixed;
+    padding-bottom: 160px;
+    
+}
+ .header
+{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.social
+{
+    display: none;
+}
+.logo
+{
+   width: 100%;
+   text-align: center;
+   
+}
+
+
+.order-btn .o-btn
+{
+    display: none;
+}
+
+
+.hidden-menu-icon
+{
+   display: none;
+}
+
+.links-sec
+{
+    
+    padding-top: 20px;
+    padding-bottom: 5px;
+    transition: all .3s;
+    width: 100%;
+    
+}
+.activesection
+{
+    background:rgb(226, 56, 13) ;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+
+.main-content
+{
+    text-align: center;
+    color: #fff;
+    width: 90%;
+    margin:50px auto;
+    padding-top: 50px;
+}
+.main-content h1
+{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#our-service
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #eee;
+    width: 100%;
+}
+.c-heading
+{
+    text-align: center;
+    
+}
+.c-heading h2
+{
+    font-size: 43px;
+}
+.service-row
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin:40px auto;
+    flex-direction: column;
+}
+.service-col
+{
+    width: 60%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin: 30px auto;
+}
+
+
+
+#popular-dishes
+{
+    background: url(../images/edward-franklin-Nb_Q-M3Cdzg-unsplash-min.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-position: center;
+}
+#popular-dishes .c-heading
+{
+    color: #fff;
+}
+.dish-carousel
+{
+    width: 90%;
+    margin:50px auto;
+}
+#popular-dishes .main-carousel
+{
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#popular-dishes .carousel-cell
+{
+   width: 100%;
+    padding: 20px;
+   margin-right: 50px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.carousel-img
+{
+    text-align: center;
+    width: 100%;
+}
+.carousel-img img
+{
+   
+width: 250px;
+height: 250px;
+border-radius: 90px;
+}
+
+
+#booking
+{
+    width: 100%;
+    background: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#booking .c-heading
+{
+    margin-bottom: 50px;
+}
+ .booktable
+{
+    width: 90%;
+    padding: 20px;
+    box-shadow: rgba(0,0,0,.5)0px 2px 6px 0px;
+    margin: auto;
+    border-radius: 20px;
+    background: #fff;
+}
+#tableform
+{
+    margin-top: 20px;
+}
+.form-group 
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.form-group input
+{
+    width:49%;
+    height: 40px;
+    border: none;
+    background: #eee;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom:20px ;
+    
+}
+
+.clients-row
+{
+    width: 80%;
+    margin:50px auto;
+}
+.clients-cols
+{
+    width: 100%;
+    background:#fff;
+    display: block;
+    align-items: center;
+   margin-bottom: 50px;
+   box-shadow: rgba(0,0,0,.6)0px 2px 6px 0px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.client-img
+{
+    width: 100%;
+    text-align: center;
+    color: #000;
+   
+}
+.client-img img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 80px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.client-comm
+{
+    color: #000;
+    border-left: none;
+    
+   width: 100%;
+}
+.client-comm p
+{
+    padding-left:25px ;
+    font-family: cursive;
+}
+.client-nav
+{
+    width: 15%;
+    margin:auto;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.footer-row
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid rgba(94, 75, 75, 0.836);
+    padding-bottom: 10px;
+    flex-direction: column;
+}
+.footer-cols
+{
+    width: 80%;
+    color: #fff;
+    margin:20px auto;   
+    
+}
+.address-sec
+{
+    display: flex;
+    justify-content: center;
+}
+.footer-cols:nth-child(1)
+{
+    text-align: center;
+}
+.footer-cols:nth-child(2) .footer-head
+{
+    text-align: center;
+}
+.footer-cols:nth-child(3)
+{
+    text-align: center;
+}
+.openhours
+{
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/*---------------- Our menu page style ------------------- */
+
+.common-container
+{
+    background:linear-gradient(rgba(0,0,0,.5),#0cd4f38c), url(../images/janice-lin-yUIN4QWKCTw-unsplash-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+   
+}
+.labelhead
+{
+    text-align: center;
+    transform: translateY(120px);
+    color: #fff;
+    
+}
+.labelhead h1
+{
+    font-size: 65px;
+}
+#our-menu
+{
+    background:#eee;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+#our-menu .menu-gallary
+{
+    width: 90%;
+    margin: auto;
+}
+
+#our-menu .menu-list p
+{
+    cursor: pointer;
+}
+#indicator
+{
+   display: none;
+}
+.munu-dishrow
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(450px,1fr));
+	grid-column-gap: 50px;
+	grid-row-gap: 30px;
+    margin-top: 40px;
+}
+
+.menu-dish .dishcol
+{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    background:rgba(28, 111, 179, 0.76);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#our-best-service
+{
+    
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+.addvertise-row
+{
+    width: 60%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.addvertisecol
+{
+    width: 100%;
+    text-align: center;
+    transition: all ease-out .2s;
+    padding: 10px;
+}
+.addvertisecol:hover
+{
+    box-shadow: rgba(0,0,0,.5)0px 2px 6px 0px;
+    transform: none;
+}
+.addvertisecol img
+{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+/*---------------- About page style ------------------- */
+
+#common-container2
+{
+    background:linear-gradient(rgba(0,0,0,.5),#0cd4f38c), url(../images/lily-banse--YHSwy6uqvk-unsplash-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+#history
+{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background: #eee;
+}
+
+.hist-sec
+{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+}
+.histcol1,.histcol2
+{
+    width: 100%;
+}
+.histcol1
+{
+    text-align: center;
+}
+.histcol1 img
+{
+   width:600px;
+   height:350px;
+   margin-bottom: 30px;
+   
+   
+}
+.histcol2
+{
+    padding-left: 20px;
+}
+.histcol2 h2
+{
+    margin-bottom: 20px;
+}
+.histcol2 p
+{
+    color: rgba(0, 0, 0, 0.568);
+}
+
+#counter
+{
+    background:linear-gradient(rgba(0, 0, 0, 0.355),rgba(0, 0, 0, 0.327)), url(../images/jordane-mathieu-coodx5jF2f0-unsplash-min.jpg);
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom:80px;
+}
+.coun-container
+{
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.count-col
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#ourstaff
+{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background: #eee;
+}
+
+#ourstaff .members-container
+{
+    width: 90%;
+    margin: auto;
+    
+}
+#ourstaff .members-container .carousel-cell
+{
+    width: 100%;
+    margin-left: 50px;
+    
+
+}
+#ourstaff .members-container .carousel-cell img
+{
+    width: 500px;
+    height: 400px;
+    
+    
+}
+#ourstaff .members-container .main-carousel
+{
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#ourstaff .members-container .carousel-cell
+{
+    margin-top: 30px;
+}
+.chef-info
+{
+    margin-top: 30px;
+}
+
+
+/*---------------- Blog page style ------------------- */
+
+
+.blog-label
+{
+   
+    color: rgba(0, 0, 0, 0.077);
+    font-size: 150px;
+    user-select: none;
+    font-weight: bold;
+    
+}
+.blog-inner
+{
+    width: 80%;
+    margin:50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.blog-col
+{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+.blog-col:nth-child(3)
+{
+    flex-direction: column;
+}
+.blog-col:nth-child(3) .blog-info
+{
+    margin-right:0px;
+}
+.blog-col:nth-child(4)
+{
+    flex-direction: column;
+}
+.blog-col:nth-child(4) .blog-info
+{
+    margin-right:0px;
+}
+
+.blog-col img
+{
+    width: 280px;
+    height: 280px;
+}
+.blog-info
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 280px;
+}
+
+
+.contact-container
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.contact-col
+{
+    width: 100%;
+}
+.map-col
+{
+    height: 500px;
+}
+
+}
+
+
+/*---------------------- For large device ------------------------- */
+@media (min-width:961px) and (max-width:1200px)
+{
+
+ #main-sec
+{
+    background:linear-gradient(rgba(0,0,0,.5),#0cd4f36c),url(../images/pablo-merchan-montes-Orz90t6o0e4-unsplash-min.jpg);
+    width: 100%;
+    
+    background-size: cover;
+    background-attachment:fixed;
+    padding-bottom: 160px;
+    
+}
+ .header
+{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.social
+{
+    display: none;
+}
+.logo
+{
+   width: 100%;
+   text-align: center;
+   
+}
+
+
+.order-btn .o-btn
+{
+    display: none;
+}
+
+
+.hidden-menu-icon
+{
+   display: none;
+}
+
+.links-sec
+{
+    
+    padding-top: 20px;
+    padding-bottom: 5px;
+    transition: all .3s;
+    width: 100%;
+    
+}
+.activesection
+{
+    background:rgb(226, 56, 13) ;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+
+.main-content
+{
+    text-align: center;
+    color: #fff;
+    width: 90%;
+    margin:50px auto;
+    padding-top: 50px;
+}
+.main-content h1
+{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#our-service
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #eee;
+    width: 100%;
+}
+.addvertise-row
+{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.c-heading
+{
+    text-align: center;
+    
+}
+.c-heading h2
+{
+    font-size: 43px;
+}
+.service-row
+{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin:40px auto;
+    flex-direction: column;
+}
+.service-col
+{
+    width: 70%;
+    text-align: center;
+    margin:30px auto;
+}
+.service-col img
+{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 80px;
+    margin-bottom: 20px;
+}
+
+
+#popular-dishes
+{
+    background: url(../images/edward-franklin-Nb_Q-M3Cdzg-unsplash-min.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-position: center;
+}
+#popular-dishes .c-heading
+{
+    color: #fff;
+}
+.dish-carousel
+{
+    width: 90%;
+    margin:50px auto;
+}
+#popular-dishes .main-carousel
+{
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#popular-dishes .carousel-cell
+{
+   width: 100%;
+    padding: 20px;
+   margin-right: 50px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.carousel-img
+{
+    text-align: center;
+    width: 100%;
+}
+.carousel-img img
+{
+   
+width: 250px;
+height: 250px;
+border-radius: 90px;
+}
+
+#booking
+{
+    width: 100%;
+    background: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#booking .c-heading
+{
+    margin-bottom: 50px;
+}
+ .booktable
+{
+    width: 80%;
+    padding: 20px;
+    box-shadow: rgba(0,0,0,.5)0px 2px 6px 0px;
+    margin: auto;
+    border-radius: 20px;
+    background: #fff;
+}
+#tableform
+{
+    margin-top: 20px;
+}
+.form-group 
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.form-group input
+{
+    width:49%;
+    height: 40px;
+    border: none;
+    background: #eee;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom:20px ;
+    
+}
+
+
+.client-nav
+{
+    width: 20%;
+    margin:auto;
+    display: flex;
+    justify-content:space-evenly;
+} 
+
+
+.footer-row
+{
+    width: 95%;
+}
+
+/*---------------- Our menu page style ------------------- */
+
+.common-container
+{
+    background:linear-gradient(rgba(0,0,0,.5),#0cd4f38c), url(../images/janice-lin-yUIN4QWKCTw-unsplash-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+   
+}
+.labelhead
+{
+    text-align: center;
+    transform: translateY(120px);
+    color: #fff;
+    
+}
+.labelhead h1
+{
+    font-size: 65px;
+}
+#our-menu
+{
+    background:#eee;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+#our-menu .menu-gallary
+{
+    width: 90%;
+    margin: auto;
+}
+
+#our-menu .menu-list p
+{
+    cursor: pointer;
+}
+#indicator
+{
+    width:0px;
+    height: 2px;
+    background:none;
+    position: absolute;
+    bottom: 0;
+    left: 130px;
+    transform: translateX(0px);
+    transition: all .2s;
+}
+.munu-dishrow
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(550px,1fr));
+	grid-column-gap: 50px;
+	grid-row-gap: 30px;
+    margin-top: 40px;
+}
+
+.menu-dish .dishcol
+{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    background:rgba(28, 111, 179, 0.76);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/*---------------- About page style ------------------- */
+
+#common-container2
+{
+    background:linear-gradient(rgba(0,0,0,.5),#0cd4f38c), url(../images/lily-banse--YHSwy6uqvk-unsplash-min.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+#history
+{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background: #eee;
+}
+
+.hist-sec
+{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    
+}
+.histcol1,.histcol2
+{
+    width: 100%;
+}
+.histcol1
+{
+    text-align: center;
+}
+.histcol1 img
+{
+   width: 450px;
+   height:300px;
+   margin-bottom: 30px;
+   
+   
+}
+.histcol2
+{
+    padding-left: 20px;
+}
+.histcol2 h2
+{
+    margin-bottom: 20px;
+}
+.histcol2 p
+{
+    color: rgba(0, 0, 0, 0.568);
+}
+
+#counter
+{
+    background:linear-gradient(rgba(0, 0, 0, 0.355),rgba(0, 0, 0, 0.327)), url(../images/jordane-mathieu-coodx5jF2f0-unsplash-min.jpg);
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom:80px;
+}
+.coun-container
+{
+    width: 90%;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.count-col
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#ourstaff
+{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background: #eee;
+}
+
+#ourstaff .members-container
+{
+    width: 90%;
+    margin: auto;
+    
+}
+#ourstaff .members-container .carousel-cell
+{
+    width: 100%;
+    margin-left: 50px;
+    text-align: center;
+
+}
+#ourstaff .members-container .carousel-cell img
+{
+    width: 700px;
+    height: 400px;
+    
+    
+}
+#ourstaff .members-container .main-carousel
+{
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#ourstaff .members-container .carousel-cell
+{
+    margin-top: 30px;
+}
+.chef-info
+{
+    margin-top: 30px;
+}
+
+
+
+/*---------------- Blog page style ------------------- */
+
+
+.blog-label
+{
+   
+    color: rgba(0, 0, 0, 0.077);
+    font-size: 150px;
+    user-select: none;
+    font-weight: bold;
+    
+}
+.blog-inner
+{
+    width: 80%;
+    margin:50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.blog-col
+{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    flex-direction: column;
+    margin-bottom: 50px;
+    
+}
+.blog-col:nth-child(3)
+{
+    flex-direction: column;
+}
+.blog-col:nth-child(3) .blog-info
+{
+    margin-right:0px;
+}
+.blog-col:nth-child(4)
+{
+    flex-direction: column;
+}
+.blog-col:nth-child(4) .blog-info
+{
+    margin-right:0px;
+}
+
+.blog-col img
+{
+    width: 350px;
+    height: 350px;
+}
+.blog-info
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 300px;
+}
+
+/*---------------- Contact page style ------------------- */
+
+.contact-container
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+}
