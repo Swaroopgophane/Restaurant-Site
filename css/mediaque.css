@@ -9,7 +9,7 @@
     width: 100%;
     
     background-size: cover;
-    background-attachment:fixed;
+    background-attachment:unset;
     padding-bottom: 130px;
     
 }
@@ -161,7 +161,7 @@
 {
     background: url(../images/edward-franklin-Nb_Q-M3Cdzg-unsplash-min.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: unset;
     width: 100%;
     padding-top: 50px;
     padding-bottom: 30px;
@@ -257,6 +257,15 @@
 
 }
 
+#testimonials
+{
+    background: linear-gradient(rgba(36, 48, 45, 0.5),rgba(27, 163, 145, 0.507)),url("../images/ogulcan-ercal-hl4Ulv4IxZA-unsplash-min.jpg");
+    width: 100%;
+    background-attachment: unset;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .clients-row
 {
     width: 80%;
@@ -380,10 +389,10 @@
 
 /*---------------- Our menu page style ------------------- */
 
-.common-container
+#common-container
 {
     background:linear-gradient(rgba(0,0,0,.5),#0cd4f38c), url(../images/janice-lin-yUIN4QWKCTw-unsplash-min.jpg);
-    background-attachment: fixed;
+    background-attachment: unset;
     background-size: cover;
     width: 100%;
     height: 70vh;
@@ -406,7 +415,7 @@
     width: 100%;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: unset;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -580,7 +589,7 @@
 #common-container2
 {
     background:linear-gradient(rgba(0,0,0,.5),#0cd4f38c), url(../images/lily-banse--YHSwy6uqvk-unsplash-min.jpg);
-    background-attachment: fixed;
+    background-attachment: unset;
     background-size: cover;
     width: 100%;
     height: 70vh;
@@ -631,7 +640,7 @@
     background:linear-gradient(rgba(0, 0, 0, 0.355),rgba(0, 0, 0, 0.327)), url(../images/jordane-mathieu-coodx5jF2f0-unsplash-min.jpg);
     background-size: cover;
     background-position:center;
-    background-attachment: fixed;
+    background-attachment: unset;
     padding-top: 100px;
     padding-bottom:80px;
 }
@@ -696,7 +705,10 @@
 
 /*---------------- Blog page style ------------------- */
 
-
+#common-container3
+{
+    background-attachment:unset;
+}
 .blog-label
 {
    
@@ -768,6 +780,11 @@
     background: #f76504;
 } */
 
+
+#common-container4
+{
+    background-attachment:unset;
+}
 .contact-container
 {
     width: 100%; 
