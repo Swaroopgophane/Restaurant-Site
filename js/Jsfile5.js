@@ -75,7 +75,7 @@ Gridlist4.onclick = function()
 }
 Gridlist5.onclick = function()
 {
-    Gridlist1.classList.add('activeindicator')
+    Gridlist1.classList.remove('activeindicator')
     Gridlist2.classList.remove('activeindicator')
     Gridlist3.classList.remove('activeindicator')
     Gridlist4.classList.remove('activeindicator')
