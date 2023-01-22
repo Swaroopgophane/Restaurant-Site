@@ -179,6 +179,7 @@
     text-decoration: none;
     color: #fff;
     cursor: pointer;
+    outline: none;
 }
 .links-sec .links ul li a:hover
 {
@@ -782,6 +783,7 @@ border-radius: 90px;
 {
     width: 100%;
     display: flex;
+    align-items: center;
     margin-top: 20px;
     background:rgba(28, 111, 179, 0.76);
     padding: 25px;
@@ -789,7 +791,7 @@ border-radius: 90px;
 }
 .dish-img
 {
-    width: 800px;
+    width: 200px;
     height: 200px;
     overflow: hidden;
     border-radius: 80px;
@@ -822,6 +824,7 @@ border-radius: 90px;
     border-radius: 10px;
     color: #000;
     outline: none;
+    margin-top: 10px;
 }
 .dishbtn:hover
 {
